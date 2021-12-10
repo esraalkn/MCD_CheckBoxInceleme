@@ -43,6 +43,7 @@ namespace MCD_CheckBoxInceleme
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.checkedListBox = new System.Windows.Forms.CheckedListBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pctUrunResim)).BeginInit();
             this.SuspendLayout();
@@ -189,11 +190,22 @@ namespace MCD_CheckBoxInceleme
             this.checkedListBox.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.checkedListBox_ItemCheck);
             this.checkedListBox.SelectedIndexChanged += new System.EventHandler(this.checkedListBox_SelectedIndexChanged);
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label7.Location = new System.Drawing.Point(186, 32);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(199, 29);
+            this.label7.TabIndex = 8;
+            this.label7.Text = "ÜRÜN LİSTESİ:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1199, 623);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.checkedListBox);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
@@ -226,6 +238,7 @@ namespace MCD_CheckBoxInceleme
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.CheckedListBox checkedListBox;
+        private System.Windows.Forms.Label label7;
     }
 }
 
